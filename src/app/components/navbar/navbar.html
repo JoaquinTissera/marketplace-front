@@ -1,0 +1,15 @@
+<nav class="navbar">
+  <div class="routes">
+    <button type="button" (click)="goToRoute('products')">Productos</button>
+    <button type="button" (click)="goToRoute('cart')">Carrito</button>
+  </div>
+  <div class="title"></div>
+  <div class="actions">
+    <button type="button" mat-icon-button aria-label="Perfil">
+      <mat-icon>search</mat-icon>
+    </button>
+    <button type="button" (click)="goToRoute('profile')" mat-icon-button aria-label="Perfil">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+  </div>
+</nav>
